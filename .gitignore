@@ -1,0 +1,8 @@
+test.py
+
+*.pyc
+*.pyd
+*.egg-info
+.pytest_cache/*
+build/*
+dist/*
