@@ -5,6 +5,10 @@ exclude =
     .mypy_cache,
     .ptest_cache
     
+ignore =
+    # useless super delegates, this is over-reactive
+    W0235
+    
 per-file-ignores =
     # do not report unused imports in __init__
     __init__.py:F401

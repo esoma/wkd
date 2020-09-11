@@ -4,7 +4,7 @@ import pathlib
 import setuptools
 
 README_FILE_PATH = pathlib.Path(__file__).parent.absolute().joinpath(
-    'README.md'
+    'README.md',
 )
 with open(README_FILE_PATH) as f:
     long_description = f.read()
