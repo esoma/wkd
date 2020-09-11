@@ -6,3 +6,5 @@ test.py
 .pytest_cache/*
 build/*
 dist/*
+
+.coverage

@@ -15,7 +15,11 @@ setuptools.setup(
     author='Erik Soma',
     author_email='stillusingirc@gmail.com',
     description='Game Development Library',
-    tests_require=['pytest'],
+    tests_require=[
+        'coverage[toml]',
+        'pytest',
+        'pytest-cov',
+    ],
     install_requires=[],
     extras_require={
         "lint":  [
