@@ -19,4 +19,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
+__all__ = []
+
+from ._error import AlreadyOpenedError, NotOpenedError, UsageError, Error
 from ._log import log
