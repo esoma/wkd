@@ -17,6 +17,14 @@ setuptools.setup(
     description='Game Development Library',
     tests_require=['pytest'],
     install_requires=[],
+    extras_require={
+        "lint":  [
+            'flake8', 'flake8-broken-line', 'flake8-bugbear',
+            'flake8-builtins', 'flake8-commas', 'flake8-comprehensions',
+            'flake8-fixme', 'flake8-print', 'flake8-use-fstring',
+            'flake8-annotations-complexity',
+        ],
+    },
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/esoma/wkd',
