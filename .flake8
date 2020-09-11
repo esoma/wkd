@@ -1,0 +1,10 @@
+[flake8]
+exclude = 
+    .git,
+    __pycache__,
+    .mypy_cache,
+    .ptest_cache
+    
+per-file-ignores =
+    # do not report unused imports in __init__
+    __init__.py:F401
