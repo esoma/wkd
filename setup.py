@@ -17,6 +17,7 @@ setuptools.setup(
     description='Game Development Library',
     tests_require=[
         'coverage[toml]',
+        'mypy',
         'pytest',
         'pytest-cov',
     ],

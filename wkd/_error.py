@@ -1,5 +1,5 @@
 
-__all__ = []
+__all__ = ()
 
 # wkd
 from ._repr import module

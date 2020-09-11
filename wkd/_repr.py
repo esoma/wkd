@@ -1,5 +1,5 @@
 
-__all__ = []
+__all__ = ()
 
 
 class module:
