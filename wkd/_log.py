@@ -1,5 +1,5 @@
 
-__all__ = ['log']
+__all__ = []
 
 # python
 import logging
